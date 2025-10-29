@@ -182,7 +182,7 @@ def simulate_real_map_trajectory():
                 logging.error(f"Failed to fetch route: {response.status_code} - {response.text}")
                 return []
 
-        api_key = "AIzaSyBqGDXVFu8z386xLHiQjIh6S1qP7kwEEB0"
+        api_key = "************************"
         route = get_route(api_key, start_location, end_location)
         if not route:
             return jsonify({"error": "Failed to fetch route. Check your API key or parameters."}), 500
