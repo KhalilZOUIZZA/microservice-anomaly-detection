@@ -145,7 +145,7 @@ const MapTrajectory = () => {
             </button>
 
             {/* Map */}
-            <LoadScript googleMapsApiKey="AIzaSyBqGDXVFu8z386xLHiQjIh6S1qP7kwEEB0">
+            <LoadScript googleMapsApiKey="****************************">
                 <GoogleMap
                     mapContainerStyle={mapContainerStyle}
                     center={center}
