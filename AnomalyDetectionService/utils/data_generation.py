@@ -6,7 +6,7 @@ import time
 # Constants
 VEHICLE_SERVICE_URL = "http://localhost:8081/vehicles"
 TRAJECTORY_API_URL = "http://localhost:8081/api/trajectories/trajectories"
-GOOGLE_MAPS_API_KEY = "AIzaSyBqGDXVFu8z386xLHiQjIh6S1qP7kwEEB0"
+GOOGLE_MAPS_API_KEY = "*********************************"
 
 # Fetch vehicles
 def fetch_vehicles():
